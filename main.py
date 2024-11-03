@@ -13,6 +13,7 @@ pipeline = InferencePipeline.init(
     on_prediction = render_boxes
 )
 
+# Create a tkinter window
 mainWindow = Tk()
 mainWindow.title("Emotion Detector")
 mainWindow.geometry("300x130")
